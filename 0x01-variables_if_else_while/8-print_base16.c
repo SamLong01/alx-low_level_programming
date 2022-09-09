@@ -16,7 +16,7 @@ char ch;
 for (d = '0'; d <= '9'; d++)
 putchar(d);
 for (ch = 'a'; ch <= 'f'; ch++)
-putchar(low);
+putchar(ch);
 putchar('\n');
 
 return (0);
