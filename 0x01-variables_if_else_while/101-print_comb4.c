@@ -3,10 +3,8 @@
 
 /**
  * main - print triple combos
- *
  * Description: print triple digit combos
- *
- * Return: Always 0 (Success)
+ * Return: 0 if exited properly, non-zero otherwise
  */
 
 int main(void)
