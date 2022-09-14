@@ -1,15 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints _putchar
- * followed by a new line
- * Return: 0 always
+ * main - print _putchar
+ * Return: always 0
  */
 
 int main(void)
 {
-putchar("%s\n", _putchar);
-return (0);
-}
+	_putchar('_');
+	_putchar('p');
+	_putchar(Ã'u');
+	_putchar('t');
+	_putchar(Ã'c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
