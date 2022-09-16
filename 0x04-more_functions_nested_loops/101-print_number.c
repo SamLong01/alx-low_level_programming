@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print numbers
+ * print_number - print numbers
  * @n: parameters
  */
 
@@ -30,6 +30,6 @@ void print_number(int n)
 
 	for (; count >= 1; count /= 10)
 	{
-		_putchar(((i /count) % 10) + 48);
+		_putchar(((i / count) % 10) + 48);
 	}
 }
