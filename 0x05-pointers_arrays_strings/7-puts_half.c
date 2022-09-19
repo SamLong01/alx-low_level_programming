@@ -6,7 +6,7 @@
  * @s: pointer to the string variables
  */
 
-void puts_half(char *str)
+void puts_half(char *s)
 {
 	int len = strlen(s), i;
 
