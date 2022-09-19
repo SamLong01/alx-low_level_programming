@@ -3,7 +3,7 @@
 
 /**
  * print_array - prints n elements of an array of integers
- * @arr: input array
+ * @a: input array
  * @n: input n elements
  */
 
