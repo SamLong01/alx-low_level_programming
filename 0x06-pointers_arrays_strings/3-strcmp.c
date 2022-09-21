@@ -10,6 +10,12 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	strcmp(s1, s2);
-	return (0);
+	int n = 15;
+
+	if (s1 > s2)
+		return (n);
+	else if (s1 < s2)
+		return (-1 * n);
+	else
+		return (0);
 }
