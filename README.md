@@ -1,2 +1,2 @@
 # alx-low_level_programming
-This is the C programming repository
+This is my ALX C programming repository.
