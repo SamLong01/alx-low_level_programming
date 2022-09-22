@@ -10,16 +10,16 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	for (i = 0; s[i] >= 65 && s[i] <= 90; i++)
+	for (i = 0; s[i] >= 'A' && s[i] <= 'Z'; i++)
 	{
-		if (s[i] >= 65 && s[i] <= 77)
+		if (s[i] >= 'A' && s[i] <= 'M')
 			s[i] += 13;
 		else
 			s[i] -= 13;
 	}
-	for (j = 0; s[j] >= 97 && s[j] <= 122; j++)
+	for (j = 0; s[j] >= 'a' && s[j] <= 'z'; j++)
 	{
-		if (s[j] >= 97 && s[j] <= 109)
+		if (s[j] >= 'a' && s[j] <= 'm')
 			s[j] += 13;
 		else
 			s[j] -= 13;
