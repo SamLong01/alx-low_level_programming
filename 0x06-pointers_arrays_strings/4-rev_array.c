@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -10,16 +8,12 @@
 
 void reverse_array(int *a, int n)
 {
-	int h = n - 1;
+	int tmp, index;
 
-	int i = 0, j;
-
-	while (i < n)
+	for (index = n - 1; index > n / 2; index--)
 	{
-		j = a[h];
-		a[h] = a[i];
-		a[i] = j;
-		h--;
-		i++;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }
