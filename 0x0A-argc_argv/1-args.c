@@ -11,7 +11,7 @@
 
 int main(int argc, char **argv)
 {
-	printf("%d\n", argc);
-	return (atoi(argv[0]));
+	(void)argv;
+	printf("%i\n", argc - 1);	
 	return (0);
 }
