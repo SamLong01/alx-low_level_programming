@@ -6,4 +6,5 @@
  */
 
 #ifndef SIZE
-#define SIZE 1024
+#define SIZE 102
+#endif // #ifndef SIZE
