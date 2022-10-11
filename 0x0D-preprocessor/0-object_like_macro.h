@@ -7,4 +7,4 @@
 
 #ifndef SIZE
 #define SIZE 102
-#endif // #ifndef SIZE
+#endif /* #ifndef SIZE */

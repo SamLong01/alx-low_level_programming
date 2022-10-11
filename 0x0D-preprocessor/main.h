@@ -6,4 +6,4 @@
 
 int _putchar(char);
 
-#endif /* MAIN_H */
+#endif /* #ifndef MAIN_H */
