@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
-  * main - ...
-  * @argc: ...
-  * @argv: ...
+  * main - check the code
+  * @argc: argument count
+  * @argv: argument vector
   *
-  * Return: ...
+  * Return: Always 0
   */
 int main(int argc, char *argv[])
 {
